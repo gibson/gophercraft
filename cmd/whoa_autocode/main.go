@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Gophercraft/core/cmd/whoa_autocode/autocode"
+	"github.com/gibson/gophercraft/cmd/whoa_autocode/autocode"
 )
 
 func main() {

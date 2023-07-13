@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/packet/gameobject"
-	"github.com/Gophercraft/core/packet/update"
-	"github.com/Gophercraft/core/realm/wdb"
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/core/tempest"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/packet/gameobject"
+	"github.com/gibson/gophercraft/packet/update"
+	"github.com/gibson/gophercraft/realm/wdb"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/tempest"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 type GameObject struct {

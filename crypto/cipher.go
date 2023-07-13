@@ -3,8 +3,8 @@ package crypto
 import (
 	"fmt"
 
-	"github.com/Gophercraft/core/crypto/arc4"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/crypto/arc4"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 // Cipher describes some method for setting up an encryption layer over a TCP socket.

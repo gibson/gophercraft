@@ -3,11 +3,11 @@ package realm
 import (
 	"fmt"
 
-	"github.com/Gophercraft/core/format/dbc/dbdefs"
-	"github.com/Gophercraft/core/packet/spell"
-	"github.com/Gophercraft/core/realm/wdb"
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/format/dbc/dbdefs"
+	"github.com/gibson/gophercraft/packet/spell"
+	"github.com/gibson/gophercraft/realm/wdb"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/utils/log"
 )
 
 func (s *Session) KnowsAbility(spellID uint32) bool {

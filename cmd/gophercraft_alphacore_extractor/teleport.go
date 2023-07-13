@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/core/tempest"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/tempest"
 )
 
 type GameTele struct {

@@ -6,7 +6,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 type ItemFlags struct {

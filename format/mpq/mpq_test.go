@@ -3,7 +3,7 @@ package mpq
 import (
 	"testing"
 
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/utils/log"
 )
 
 func TestMPQ(t *testing.T) {

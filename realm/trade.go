@@ -3,7 +3,7 @@ package realm
 import (
 	"math"
 
-	"github.com/Gophercraft/core/realm/wdb/models"
+	"github.com/gibson/gophercraft/realm/wdb/models"
 )
 
 var (

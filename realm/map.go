@@ -1,9 +1,9 @@
 package realm
 
 import (
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/tempest"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/tempest"
+	"github.com/gibson/gophercraft/utils/log"
 )
 
 func (m *Map) GetObject(id guid.GUID) WorldObject {

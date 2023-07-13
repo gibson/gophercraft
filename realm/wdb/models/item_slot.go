@@ -3,7 +3,7 @@ package models
 import (
 	"fmt"
 
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 type ItemSlot int

@@ -3,7 +3,7 @@ package models
 import (
 	"fmt"
 
-	"github.com/Gophercraft/core/tempest"
+	"github.com/gibson/gophercraft/tempest"
 )
 
 // PlayerCreateInfo determines where a character is spawned at upon their first login, using their race and class.

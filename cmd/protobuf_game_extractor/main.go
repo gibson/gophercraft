@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/Gophercraft/core/cmd/protobuf_game_extractor/ex"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/cmd/protobuf_game_extractor/ex"
+	"github.com/gibson/gophercraft/utils/log"
 )
 
 func main() {

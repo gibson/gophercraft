@@ -1,7 +1,7 @@
 package commands
 
 import (
-	"github.com/Gophercraft/core/realm"
+	"github.com/gibson/gophercraft/realm"
 )
 
 func cmdVmod(s *realm.Session, params []string) {

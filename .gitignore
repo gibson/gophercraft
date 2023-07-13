@@ -9,3 +9,5 @@ cmd/gcraft_bot
 cmd/casc_dl/
 format/blp/testdata/results/**
 compile-protobuf.sh
+.idea
+gophercraft_*

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/Gophercraft/core/i18n"
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/text"
+	"github.com/gibson/gophercraft/i18n"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/utils/text"
 )
 
 type NPCText struct {

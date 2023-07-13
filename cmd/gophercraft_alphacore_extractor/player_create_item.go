@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/Gophercraft/core/realm/wdb/models"
+	"github.com/gibson/gophercraft/realm/wdb/models"
 )
 
 type PlayerCreateItem struct {

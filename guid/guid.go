@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 var (

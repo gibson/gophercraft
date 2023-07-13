@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/Gophercraft/core/format/dbc"
-	"github.com/Gophercraft/core/format/dbc/dbd"
-	"github.com/Gophercraft/core/format/dbc/dbdefs"
+	"github.com/gibson/gophercraft/format/dbc"
+	"github.com/gibson/gophercraft/format/dbc/dbd"
+	"github.com/gibson/gophercraft/format/dbc/dbdefs"
 )
 
 type layoutTarget struct {

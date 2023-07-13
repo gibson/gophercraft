@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Gophercraft/core/home/alphalist"
-	"github.com/Gophercraft/core/home/login"
-	"github.com/Gophercraft/core/home/models"
-	"github.com/Gophercraft/core/home/rpcnet"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/home/alphalist"
+	"github.com/gibson/gophercraft/home/login"
+	"github.com/gibson/gophercraft/home/models"
+	"github.com/gibson/gophercraft/home/rpcnet"
+	"github.com/gibson/gophercraft/utils/log"
 	"golang.org/x/crypto/bcrypt"
 )
 

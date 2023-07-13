@@ -5,13 +5,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Gophercraft/core/format/dbc/dbdefs"
-	"github.com/Gophercraft/core/format/terrain"
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/realm/wdb"
-	"github.com/Gophercraft/core/tempest"
-	"github.com/Gophercraft/log"
 	"github.com/arl/math32"
+	"github.com/gibson/gophercraft/format/dbc/dbdefs"
+	"github.com/gibson/gophercraft/format/terrain"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/realm/wdb"
+	"github.com/gibson/gophercraft/tempest"
+	"github.com/gibson/gophercraft/utils/log"
 )
 
 type orop uint16

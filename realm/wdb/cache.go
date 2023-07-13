@@ -9,7 +9,7 @@ import (
 
 	"github.com/cybriq/gotiny"
 
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/utils/log"
 	"github.com/syndtr/goleveldb/leveldb"
 )
 

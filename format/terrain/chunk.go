@@ -1,6 +1,6 @@
 package terrain
 
-import "github.com/Gophercraft/core/tempest"
+import "github.com/gibson/gophercraft/tempest"
 
 const ChunkBufferSize = 9*9 + 8*8
 

@@ -7,18 +7,18 @@ import (
 	"github.com/arl/math32"
 	"github.com/superp00t/etc"
 
-	"github.com/Gophercraft/core/home/config"
-	"github.com/Gophercraft/core/i18n"
-	"github.com/Gophercraft/core/packet/update"
-	"github.com/Gophercraft/core/tempest"
-	"github.com/Gophercraft/core/vsn"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/home/config"
+	"github.com/gibson/gophercraft/i18n"
+	"github.com/gibson/gophercraft/packet/update"
+	"github.com/gibson/gophercraft/tempest"
+	"github.com/gibson/gophercraft/utils/log"
+	"github.com/gibson/gophercraft/vsn"
 
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/packet"
-	_ "github.com/Gophercraft/core/packet/update/descriptorsupport"
-	"github.com/Gophercraft/core/realm/wdb"
-	"github.com/Gophercraft/core/realm/wdb/models"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/packet"
+	_ "github.com/gibson/gophercraft/packet/update/descriptorsupport"
+	"github.com/gibson/gophercraft/realm/wdb"
+	"github.com/gibson/gophercraft/realm/wdb/models"
 )
 
 type SessionSet []*Session

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/packet"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/packet"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 type Tag uint8

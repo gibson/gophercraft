@@ -11,12 +11,12 @@ import (
 
 	"github.com/superp00t/etc"
 
-	"github.com/Gophercraft/core/bnet/bgs/protocol"
-	v1 "github.com/Gophercraft/core/bnet/bgs/protocol/game_utilities/v1"
-	"github.com/Gophercraft/core/bnet/realmlist"
-	"github.com/Gophercraft/core/home/config"
-	"github.com/Gophercraft/core/home/models"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/bnet/bgs/protocol"
+	v1 "github.com/gibson/gophercraft/bnet/bgs/protocol/game_utilities/v1"
+	"github.com/gibson/gophercraft/bnet/realmlist"
+	"github.com/gibson/gophercraft/home/config"
+	"github.com/gibson/gophercraft/home/models"
+	"github.com/gibson/gophercraft/utils/log"
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
 )

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Gophercraft/core/crypto/srp"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/gibson/gophercraft/crypto/srp"
 )
 
 func TestAuth(t *testing.T) {

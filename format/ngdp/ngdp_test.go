@@ -3,7 +3,7 @@ package ngdp
 import (
 	"testing"
 
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/utils/log"
 )
 
 func TestNGDP(t *testing.T) {

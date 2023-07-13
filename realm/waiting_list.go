@@ -3,9 +3,9 @@ package realm
 import (
 	"sync"
 
-	"github.com/Gophercraft/core/bnet"
-	"github.com/Gophercraft/core/home/rpcnet"
-	"github.com/Gophercraft/core/packet/auth"
+	"github.com/gibson/gophercraft/bnet"
+	"github.com/gibson/gophercraft/home/rpcnet"
+	"github.com/gibson/gophercraft/packet/auth"
 )
 
 type WaitQueue struct {

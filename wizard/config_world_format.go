@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"text/template"
 
-	"github.com/Gophercraft/core/home/config"
+	"github.com/gibson/gophercraft/home/config"
 )
 
 const DefaultWorldTemplate = `{

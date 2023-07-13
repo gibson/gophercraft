@@ -1,8 +1,8 @@
 package spell
 
 import (
-	p "github.com/Gophercraft/core/packet"
-	"github.com/Gophercraft/core/vsn"
+	p "github.com/gibson/gophercraft/packet"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 type Cast struct {

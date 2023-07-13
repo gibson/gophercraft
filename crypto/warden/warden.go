@@ -5,8 +5,8 @@ import (
 	"encoding/binary"
 	"sync"
 
-	"github.com/Gophercraft/core/crypto"
-	"github.com/Gophercraft/core/crypto/arc4"
+	"github.com/gibson/gophercraft/crypto"
+	"github.com/gibson/gophercraft/crypto/arc4"
 )
 
 func Checksum(data []byte) uint32 {

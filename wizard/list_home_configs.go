@@ -1,7 +1,7 @@
 package wizard
 
 import (
-	"github.com/Gophercraft/core/home/config"
+	"github.com/gibson/gophercraft/home/config"
 )
 
 // List all home configs in the chosen Gophercraft root directory.

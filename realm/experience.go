@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Gophercraft/core/format/dbc/dbdefs"
-	"github.com/Gophercraft/core/packet/xp"
-	"github.com/Gophercraft/core/realm/wdb"
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/core/vsn"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/format/dbc/dbdefs"
+	"github.com/gibson/gophercraft/packet/xp"
+	"github.com/gibson/gophercraft/realm/wdb"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/utils/log"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 func (ws *Server) GetNextLevelXP(forLevel uint32) uint32 {

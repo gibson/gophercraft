@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"unicode/utf8"
 
-	"github.com/Gophercraft/core/format/dbc/dbd"
-	"github.com/Gophercraft/core/vsn"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/gibson/gophercraft/format/dbc/dbd"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 const (

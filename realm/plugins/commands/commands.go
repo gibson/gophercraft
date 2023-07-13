@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Gophercraft/core/realm"
+	"github.com/gibson/gophercraft/realm"
 )
 
 type CommandProvider struct {

@@ -19,7 +19,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Gophercraft/text"
+	"github.com/gibson/gophercraft/utils/text"
 	"github.com/superp00t/etc"
 )
 

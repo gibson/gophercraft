@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Gophercraft/core/bnet/login"
-	"github.com/Gophercraft/core/crypto/srp"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/bnet/login"
+	"github.com/gibson/gophercraft/crypto/srp"
+	"github.com/gibson/gophercraft/utils/log"
 	"github.com/golang/protobuf/jsonpb"
 )
 

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Gophercraft/core/format/terrain"
-	"github.com/Gophercraft/core/tempest"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/gibson/gophercraft/format/terrain"
+	"github.com/gibson/gophercraft/tempest"
 )
 
 func TestIndices(t *testing.T) {

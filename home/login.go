@@ -7,8 +7,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/Gophercraft/core/home/login"
-	"github.com/Gophercraft/core/home/models"
+	"github.com/gibson/gophercraft/home/login"
+	"github.com/gibson/gophercraft/home/models"
 )
 
 func (s *Server) SignOutAll(account uint64) {

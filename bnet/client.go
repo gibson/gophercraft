@@ -3,9 +3,9 @@ package bnet
 import (
 	"crypto/tls"
 
-	p "github.com/Gophercraft/core/bnet/bgs/protocol"
-	cn "github.com/Gophercraft/core/bnet/bgs/protocol/connection/v1"
-	"github.com/Gophercraft/log"
+	p "github.com/gibson/gophercraft/bnet/bgs/protocol"
+	cn "github.com/gibson/gophercraft/bnet/bgs/protocol/connection/v1"
+	"github.com/gibson/gophercraft/utils/log"
 	"github.com/golang/protobuf/proto"
 	"github.com/superp00t/etc"
 )

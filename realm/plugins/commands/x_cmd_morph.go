@@ -3,7 +3,7 @@ package commands
 import (
 	"log"
 
-	"github.com/Gophercraft/core/realm"
+	"github.com/gibson/gophercraft/realm"
 )
 
 func cmdMorph(s *realm.Session, displayID uint32) {

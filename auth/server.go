@@ -5,10 +5,10 @@ import (
 	"errors"
 	"net"
 
-	"github.com/Gophercraft/core/crypto/srp"
-	"github.com/Gophercraft/core/home/models"
-	"github.com/Gophercraft/core/vsn"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/crypto/srp"
+	"github.com/gibson/gophercraft/home/models"
+	"github.com/gibson/gophercraft/utils/log"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 var (

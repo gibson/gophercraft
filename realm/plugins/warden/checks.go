@@ -3,7 +3,7 @@ package warden
 import (
 	"fmt"
 
-	packetwarden "github.com/Gophercraft/core/packet/warden"
+	packetwarden "github.com/gibson/gophercraft/packet/warden"
 )
 
 type FailType uint8
@@ -17,14 +17,14 @@ const (
 )
 
 func (sd *SessionData) HandleClientCheatChecksResult(cccr *packetwarden.ClientCheatChecksResult) {
-	for i, result := range cccr.CheckResults {
-		serverCheck := cccr.CurrentChecks.Checks[i]
-		switch serverCheck.Type {
-		case packetwarden.CheckTiming:
-		case packetwarden.CheckMem:
-			sd.HandleMemoryCheck(cccr.)
-		}
-	}
+	// for i, result := range cccr.CheckResults {
+	// 	serverCheck := cccr.CurrentChecks.Checks[i]
+	// 	switch serverCheck.Type {
+	// 	case packetwarden.CheckTiming:
+	// 	case packetwarden.CheckMem:
+	// 		sd.HandleMemoryCheck(cccr.)
+	// 	}
+	// }
 }
 
 func (sd *SessionData) Fail(ft FailType, data string, args ...interface{}) {
@@ -48,5 +48,3 @@ func (sd *SessionData) Fail(ft FailType, data string, args ...interface{}) {
 	str := fmt.Sprintf("%s: "+data, append([]interface{}{reason}, args...)...)
 	sd.Wardenf(WarnFatal, "%s", str)
 }
-
-

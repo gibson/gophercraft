@@ -3,13 +3,13 @@ package realm
 import (
 	"sync"
 
-	"github.com/Gophercraft/core/packet/chat"
-	"github.com/Gophercraft/core/packet/party"
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/packet/chat"
+	"github.com/gibson/gophercraft/packet/party"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/utils/log"
 
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/packet"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/packet"
 )
 
 func (s *Session) SendPartyResult(operation party.Operation, memberName string, result party.Result) {

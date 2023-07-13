@@ -3,7 +3,7 @@ package datapack
 import (
 	"io"
 
-	"github.com/Gophercraft/text"
+	"github.com/gibson/gophercraft/utils/text"
 )
 
 type packText struct {

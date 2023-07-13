@@ -4,8 +4,8 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/Gophercraft/core/home/models"
-	"github.com/Gophercraft/core/home/webapp"
+	"github.com/gibson/gophercraft/home/models"
+	"github.com/gibson/gophercraft/home/webapp"
 )
 
 type navElement struct {

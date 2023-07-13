@@ -1,7 +1,7 @@
 package update
 
 import (
-	"github.com/Gophercraft/core/guid"
+	"github.com/gibson/gophercraft/guid"
 )
 
 // CreateBlock is sent when the server notifies the client of a new game object. (Player, Unit, Item, etc.)

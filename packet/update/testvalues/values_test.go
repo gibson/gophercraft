@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/packet/update"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/packet/update"
 
-	_ "github.com/Gophercraft/core/packet/update/descriptorsupport"
+	_ "github.com/gibson/gophercraft/packet/update/descriptorsupport"
 )
 
 func TestValues(t *testing.T) {

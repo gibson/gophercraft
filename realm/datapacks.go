@@ -10,11 +10,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Gophercraft/core/format/dbc/dbdefs"
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/realm/wdb"
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/format/dbc/dbdefs"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/realm/wdb"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/utils/log"
 )
 
 // It seems unlikely that the files will ever reach this super-high threshold.

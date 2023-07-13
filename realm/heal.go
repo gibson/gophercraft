@@ -3,8 +3,8 @@ package realm
 import (
 	"errors"
 
-	"github.com/Gophercraft/core/packet/update"
-	"github.com/Gophercraft/core/realm/wdb/models"
+	"github.com/gibson/gophercraft/packet/update"
+	"github.com/gibson/gophercraft/realm/wdb/models"
 )
 
 func (m *Map) UnitIsAlive(target Unit) bool {

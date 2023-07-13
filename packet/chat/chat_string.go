@@ -2,7 +2,7 @@
 package chat
 
 import (
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/vsn"
 	"github.com/superp00t/etc"
 )
 

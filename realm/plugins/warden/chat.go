@@ -3,7 +3,7 @@ package warden
 import (
 	"fmt"
 
-	"github.com/Gophercraft/core/packet/chat"
+	"github.com/gibson/gophercraft/packet/chat"
 )
 
 const plurple = "A635B0FF"

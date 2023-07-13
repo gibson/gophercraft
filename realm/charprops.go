@@ -3,8 +3,8 @@ package realm
 import (
 	"strings"
 
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/text"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/utils/text"
 )
 
 const ObjectDebug models.PropID = "gophercraft.realm.ObjectDebug"

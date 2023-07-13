@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Gophercraft/core/format/ngdp/ccfg"
+	"github.com/gibson/gophercraft/format/ngdp/ccfg"
 )
 
 type Hash [16]byte
@@ -107,7 +107,7 @@ func (cl *Client) Init() error {
 	err = ccfg.NewDecoder(buildConfigFile).Decode(&cl.BuildConfig)
 	if err != nil {
 		return err
-	} 
+	}
 	return nil
 }
 

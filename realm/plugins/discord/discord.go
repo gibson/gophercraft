@@ -3,10 +3,10 @@ package discord
 import (
 	"fmt"
 
-	"github.com/Gophercraft/core/realm"
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/log"
 	"github.com/bwmarrin/discordgo"
+	"github.com/gibson/gophercraft/realm"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/utils/log"
 	"github.com/gorilla/websocket"
 )
 

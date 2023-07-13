@@ -4,9 +4,9 @@ import (
 	"errors"
 	"net"
 
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/utils/log"
 
-	"github.com/Gophercraft/core/home/models"
+	"github.com/gibson/gophercraft/home/models"
 )
 
 type Server struct {

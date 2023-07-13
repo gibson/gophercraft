@@ -6,7 +6,7 @@ import (
 	"errors"
 	"net"
 
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/utils/log"
 )
 
 type Router struct {

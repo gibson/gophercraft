@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/core/tempest"
-	"github.com/Gophercraft/text"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/tempest"
+	"github.com/gibson/gophercraft/utils/text"
 )
 
 type PlayerCreateInfo struct {

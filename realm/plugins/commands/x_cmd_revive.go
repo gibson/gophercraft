@@ -1,8 +1,8 @@
 package commands
 
 import (
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/realm"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/realm"
 )
 
 func cmdRevive(s *realm.Session) {

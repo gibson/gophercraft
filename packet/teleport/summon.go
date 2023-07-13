@@ -3,9 +3,9 @@ package teleport
 import (
 	"time"
 
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/packet"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/packet"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 // pkt := packet.NewWorldPacket(packet.SMSG_SUMMON_REQUEST)

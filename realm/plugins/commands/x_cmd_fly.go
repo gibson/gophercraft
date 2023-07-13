@@ -1,8 +1,8 @@
 package commands
 
 import (
-	"github.com/Gophercraft/core/realm"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/realm"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 func cmdFly(s *realm.Session, on bool) {

@@ -3,7 +3,7 @@ package realm
 import (
 	"net"
 
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/utils/log"
 )
 
 // Needed for the Alpha protocol.

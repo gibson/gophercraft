@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/utils/log"
 )
 
 type VisibilityFlags uint32

@@ -1,8 +1,8 @@
 package realm
 
 import (
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/packet/quest"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/packet/quest"
 )
 
 func (s *Session) QuestDone(q uint32) bool {

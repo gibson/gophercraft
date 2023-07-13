@@ -3,9 +3,9 @@ package realm
 import (
 	"time"
 
-	"github.com/Gophercraft/core/format/dbc/dbdefs"
-	"github.com/Gophercraft/core/packet/spell"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/format/dbc/dbdefs"
+	"github.com/gibson/gophercraft/packet/spell"
+	"github.com/gibson/gophercraft/utils/log"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/utils/log"
 	"github.com/superp00t/etc"
 )
 

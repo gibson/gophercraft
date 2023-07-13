@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 //go:generate gcraft_stringer -type=TypeID

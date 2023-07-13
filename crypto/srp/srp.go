@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/Gophercraft/core/crypto"
+	"github.com/gibson/gophercraft/crypto"
 )
 
 var (
@@ -41,7 +41,6 @@ func HashPrimeAndGenerator(N, g *BigNum) []byte {
 // ....
 // x := H(salt, auth)
 // v := (g^x) % N
-//
 func CalculateVerifier(auth []byte, g, N, salt *BigNum) (x *BigNum, v *BigNum) {
 	x = BigNumFromArray(crypto.SHA1(salt.ToArray(), auth))
 	v = g.ModExp(x, N)

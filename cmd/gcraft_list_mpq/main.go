@@ -5,8 +5,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/Gophercraft/core/format/mpq"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/format/mpq"
+	"github.com/gibson/gophercraft/vsn"
 	"github.com/superp00t/etc/yo"
 )
 

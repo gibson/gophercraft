@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/Gophercraft/core/packet"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/packet"
+	"github.com/gibson/gophercraft/vsn"
 	"github.com/superp00t/etc"
 )
 

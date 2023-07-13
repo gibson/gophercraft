@@ -1,6 +1,6 @@
 package commands
 
-import "github.com/Gophercraft/core/realm"
+import "github.com/gibson/gophercraft/realm"
 
 func cmdScale(s *realm.Session, scale float32) {
 	if scale < .1 || scale > 1000 {

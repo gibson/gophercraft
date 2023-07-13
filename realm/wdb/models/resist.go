@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 type Resistance uint8

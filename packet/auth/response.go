@@ -3,10 +3,10 @@ package auth
 import (
 	"fmt"
 
-	"github.com/Gophercraft/core/bnet"
-	"github.com/Gophercraft/core/packet"
-	"github.com/Gophercraft/core/packet/character"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/bnet"
+	"github.com/gibson/gophercraft/packet"
+	"github.com/gibson/gophercraft/packet/character"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 const NewResponse = vsn.V4_0_1

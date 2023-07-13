@@ -3,8 +3,8 @@ package update
 import (
 	"io"
 
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 func encodeMovementInfoAlpha(version vsn.Build, out io.Writer, mi *MovementInfo) error {

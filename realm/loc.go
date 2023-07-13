@@ -1,8 +1,8 @@
 package realm
 
 import (
-	"github.com/Gophercraft/core/realm/wdb"
-	"github.com/Gophercraft/core/realm/wdb/models"
+	"github.com/gibson/gophercraft/realm/wdb"
+	"github.com/gibson/gophercraft/realm/wdb/models"
 )
 
 func (s *Session) GetLoc(str string) string {

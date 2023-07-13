@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/Gophercraft/core/home/rpcnet"
-	"github.com/Gophercraft/core/vsn"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/home/rpcnet"
+	"github.com/gibson/gophercraft/utils/log"
+	"github.com/gibson/gophercraft/vsn"
 
 	"github.com/golang/protobuf/ptypes/empty"
 )

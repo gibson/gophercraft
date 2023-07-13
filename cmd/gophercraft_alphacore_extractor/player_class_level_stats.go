@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/text"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/utils/text"
 )
 
 // Base stats that apply to all members of a class.

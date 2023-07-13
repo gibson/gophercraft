@@ -1,6 +1,6 @@
 package commands
 
-import "github.com/Gophercraft/core/realm"
+import "github.com/gibson/gophercraft/realm"
 
 func cmdAppear(s *realm.Session, name string) {
 	player, err := s.Server.GetSessionByPlayerName(name)

@@ -1,6 +1,6 @@
 package models
 
-import "github.com/Gophercraft/core/i18n"
+import "github.com/gibson/gophercraft/i18n"
 
 type NPCTextOptionEmote struct {
 	Delay uint32

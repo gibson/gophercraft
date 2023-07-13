@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/Gophercraft/core/vsn"
-	"github.com/Gophercraft/core/wizard"
 	"github.com/fatih/color"
+	"github.com/gibson/gophercraft/vsn"
+	"github.com/gibson/gophercraft/wizard"
 )
 
 const (

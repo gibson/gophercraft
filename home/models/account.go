@@ -1,8 +1,8 @@
 package models
 
 import (
-	"github.com/Gophercraft/core/home/rpcnet"
-	"github.com/Gophercraft/core/i18n"
+	"github.com/gibson/gophercraft/home/rpcnet"
+	"github.com/gibson/gophercraft/i18n"
 )
 
 // Account represents the authentication account

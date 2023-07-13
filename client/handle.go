@@ -2,21 +2,20 @@ package client
 
 import (
 	"fmt"
-	"log"
+	"github.com/superp00t/etc/yo"
+	//"log"
 
 	"github.com/superp00t/etc"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/Gophercraft/log"
-	"github.com/Gophercraft/core/packet"
-)y
+	"github.com/gibson/gophercraft/packet"
+	"github.com/gibson/gophercraft/utils/log"
+)
 
 type ClientHandler struct {
 	Type packet.WorldType
 	Fn   func([]byte)
 }
-
-
 
 func (cl *Client) On(t packet.WorldType, fn func([]byte)) {
 	cl.Handlers[t] = &ClientHandler{

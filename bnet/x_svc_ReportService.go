@@ -3,9 +3,9 @@ package bnet
 
 import (
 	fmt "fmt"
+	protocol "github.com/gibson/gophercraft/bnet/bgs/protocol"
+	v2 "github.com/gibson/gophercraft/bnet/bgs/protocol/report/v2"
 	proto "github.com/golang/protobuf/proto"
-	protocol "github.com/Gophercraft/core/bnet/bgs/protocol"
-	v2 "github.com/Gophercraft/core/bnet/bgs/protocol/report/v2"
 	math "math"
 )
 

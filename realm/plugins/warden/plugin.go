@@ -3,8 +3,8 @@ package warden
 import (
 	"fmt"
 
-	"github.com/Gophercraft/core/packet"
-	"github.com/Gophercraft/core/realm"
+	"github.com/gibson/gophercraft/packet"
+	"github.com/gibson/gophercraft/realm"
 )
 
 type Plugin struct {

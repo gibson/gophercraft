@@ -5,7 +5,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/Gophercraft/core/i18n"
+	"github.com/gibson/gophercraft/i18n"
 )
 
 const (

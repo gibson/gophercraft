@@ -1,7 +1,7 @@
 package commands
 
 import (
-	"github.com/Gophercraft/core/realm"
+	"github.com/gibson/gophercraft/realm"
 )
 
 func cmdSpeed(s *realm.Session, speed float32) {

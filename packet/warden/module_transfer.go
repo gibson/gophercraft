@@ -3,7 +3,7 @@ package warden
 import (
 	"encoding/binary"
 
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 type ServerModuleTransfer struct {

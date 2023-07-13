@@ -8,8 +8,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/Gophercraft/core/format/pkzip"
-	"github.com/Gophercraft/core/format/sparse"
+	"github.com/gibson/gophercraft/format/pkzip"
+	"github.com/gibson/gophercraft/format/sparse"
 
 	"github.com/superp00t/etc"
 	"github.com/ulikunitz/xz/lzma"

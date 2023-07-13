@@ -4,7 +4,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/Gophercraft/core/home/models"
+	"github.com/gibson/gophercraft/home/models"
 )
 
 func (hs *Server) cleanup() {

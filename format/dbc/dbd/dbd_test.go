@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/utils/log"
 )
 
 const ChrRaces = `COLUMNS

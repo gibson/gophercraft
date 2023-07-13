@@ -5,8 +5,8 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/Gophercraft/core/format/dbc/dbd"
-	"github.com/Gophercraft/core/i18n"
+	"github.com/gibson/gophercraft/format/dbc/dbd"
+	"github.com/gibson/gophercraft/i18n"
 )
 
 var (

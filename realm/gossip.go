@@ -3,10 +3,10 @@ package realm
 import (
 	"fmt"
 
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/packet/gossip"
-	"github.com/Gophercraft/core/realm/wdb"
-	"github.com/Gophercraft/core/realm/wdb/models"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/packet/gossip"
+	"github.com/gibson/gophercraft/realm/wdb"
+	"github.com/gibson/gophercraft/realm/wdb/models"
 )
 
 func (s *Session) SendGossip(m *gossip.Menu) {

@@ -6,14 +6,14 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/packet"
-	"github.com/Gophercraft/core/realm/wdb/models"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/packet"
+	"github.com/gibson/gophercraft/realm/wdb/models"
 
-	"github.com/Gophercraft/core/home/rpcnet"
+	"github.com/gibson/gophercraft/home/rpcnet"
 
-	"github.com/Gophercraft/core/packet/chat"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/packet/chat"
+	"github.com/gibson/gophercraft/utils/log"
 )
 
 func (s *Session) SystemChat(data string) {

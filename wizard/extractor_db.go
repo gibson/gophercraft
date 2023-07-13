@@ -6,12 +6,12 @@ import (
 	"path/filepath"
 	"reflect"
 
-	"github.com/Gophercraft/core/datapack"
-	"github.com/Gophercraft/core/format/dbc"
-	"github.com/Gophercraft/core/format/dbc/dbdefs"
-	"github.com/Gophercraft/core/vsn"
-	"github.com/Gophercraft/log"
-	"github.com/Gophercraft/text"
+	"github.com/gibson/gophercraft/datapack"
+	"github.com/gibson/gophercraft/format/dbc"
+	"github.com/gibson/gophercraft/format/dbc/dbdefs"
+	"github.com/gibson/gophercraft/utils/log"
+	"github.com/gibson/gophercraft/utils/text"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 const DBPackName = "!db.zip"

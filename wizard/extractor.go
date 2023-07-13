@@ -1,7 +1,7 @@
 package wizard
 
 import (
-	"github.com/Gophercraft/core/format/content"
+	"github.com/gibson/gophercraft/format/content"
 )
 
 type Extractor struct {

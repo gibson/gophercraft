@@ -1,8 +1,8 @@
 package commands
 
 import (
-	"github.com/Gophercraft/core/realm"
-	"github.com/Gophercraft/core/realm/wdb/models"
+	"github.com/gibson/gophercraft/realm"
+	"github.com/gibson/gophercraft/realm/wdb/models"
 )
 
 func cmdSetGamemode(s *realm.Session, gm models.GameMode) {

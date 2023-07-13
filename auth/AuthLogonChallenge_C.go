@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"strings"
 
+	"github.com/gibson/gophercraft/vsn"
 	"github.com/superp00t/etc"
-	"github.com/Gophercraft/core/vsn"
 )
 
 // AuthLogonChallenge_C is the first packet sent by a client

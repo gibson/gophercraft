@@ -2,7 +2,7 @@
 package dbdefs
 
 import (
-	"github.com/Gophercraft/core/i18n"
+	"github.com/gibson/gophercraft/i18n"
 )
 
 type Ent_Achievement struct {

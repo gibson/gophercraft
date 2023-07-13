@@ -1,9 +1,9 @@
 package teleport
 
 import (
-	"github.com/Gophercraft/core/packet"
-	"github.com/Gophercraft/core/tempest"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/packet"
+	"github.com/gibson/gophercraft/tempest"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 type BindpointUpdate struct {

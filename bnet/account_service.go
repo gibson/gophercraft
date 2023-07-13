@@ -1,14 +1,14 @@
 package bnet
 
-import v1 "github.com/Gophercraft/core/bnet/bgs/protocol/account/v1"
+import v1 "github.com/gibson/gophercraft/bnet/bgs/protocol/account/v1"
 
 func (s *Listener) ResolveAccount(conn *Conn, token uint32, args *v1.ResolveAccountRequest) {
 	conn.SendResponseCode(token, ERROR_RPC_NOT_IMPLEMENTED)
 }
 
-// func (s *Listener) IsIgrAddress(conn *Conn, token uint32, args *v1.IsIgrAddressRequest) {
-// 	conn.SendResponseCode(token, ERROR_RPC_NOT_IMPLEMENTED)
-// }
+//	func (s *Listener) IsIgrAddress(conn *Conn, token uint32, args *v1.IsIgrAddressRequest) {
+//		conn.SendResponseCode(token, ERROR_RPC_NOT_IMPLEMENTED)
+//	}
 func (s *Listener) Subscribe(conn *Conn, token uint32, args *v1.SubscriptionUpdateRequest) {
 	conn.SendResponseCode(token, ERROR_RPC_NOT_IMPLEMENTED)
 }

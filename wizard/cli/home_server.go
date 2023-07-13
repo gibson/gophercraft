@@ -5,8 +5,8 @@ import (
 	"os"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/Gophercraft/core/home/rpcnet"
 	"github.com/fatih/color"
+	"github.com/gibson/gophercraft/home/rpcnet"
 )
 
 var goBack = "Main menu"

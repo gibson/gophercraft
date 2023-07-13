@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/vsn"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/utils/log"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 //go:generate gcraft_stringer -type=BlockType

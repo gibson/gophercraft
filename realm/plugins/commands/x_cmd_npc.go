@@ -1,9 +1,9 @@
 package commands
 
 import (
-	"github.com/Gophercraft/core/realm"
-	"github.com/Gophercraft/core/realm/wdb"
-	"github.com/Gophercraft/core/realm/wdb/models"
+	"github.com/gibson/gophercraft/realm"
+	"github.com/gibson/gophercraft/realm/wdb"
+	"github.com/gibson/gophercraft/realm/wdb/models"
 )
 
 func cmdAddNPC(s *realm.Session, npcID string) {

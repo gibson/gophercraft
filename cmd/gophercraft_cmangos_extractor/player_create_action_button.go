@@ -1,6 +1,6 @@
 package main
 
-import "github.com/Gophercraft/core/realm/wdb/models"
+import "github.com/gibson/gophercraft/realm/wdb/models"
 
 type PlayerCreateActionButton struct {
 	Race   uint8

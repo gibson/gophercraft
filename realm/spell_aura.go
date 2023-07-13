@@ -4,11 +4,11 @@ import (
 	"encoding/hex"
 	"time"
 
-	"github.com/Gophercraft/core/format/dbc/dbdefs"
-	"github.com/Gophercraft/core/packet"
-	"github.com/Gophercraft/core/packet/spell"
-	"github.com/Gophercraft/core/packet/update"
-	"github.com/Gophercraft/core/realm/wdb"
+	"github.com/gibson/gophercraft/format/dbc/dbdefs"
+	"github.com/gibson/gophercraft/packet"
+	"github.com/gibson/gophercraft/packet/spell"
+	"github.com/gibson/gophercraft/packet/update"
+	"github.com/gibson/gophercraft/realm/wdb"
 	"github.com/superp00t/etc"
 )
 

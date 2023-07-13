@@ -12,7 +12,7 @@ import (
 	"github.com/davecgh/go-spew/spew"
 
 	"github.com/superp00t/etc"
-	"github.com/Gophercraft/log"
+	"github.com/Gophercraft/core/utils/log"
 	"github.com/superp00t/gophercraft/guid"
 )
 

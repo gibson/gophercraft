@@ -1,7 +1,7 @@
 package auth
 
 import (
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 type Packet interface {

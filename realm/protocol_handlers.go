@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/Gophercraft/core/packet"
-	p "github.com/Gophercraft/core/packet"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/packet"
+	p "github.com/gibson/gophercraft/packet"
+	"github.com/gibson/gophercraft/utils/log"
 )
 
 type ProtocolHandlers map[p.WorldType]*ProtocolHandler

@@ -3,7 +3,7 @@ package vsn
 import (
 	"encoding/hex"
 
-	"github.com/Gophercraft/core/bnet/realmlist"
+	"github.com/gibson/gophercraft/bnet/realmlist"
 )
 
 type BuildInfo struct {

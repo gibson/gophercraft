@@ -3,7 +3,7 @@ package home
 import (
 	"fmt"
 
-	"github.com/Gophercraft/core/home/models"
+	"github.com/gibson/gophercraft/home/models"
 )
 
 func (h *Server) HandleEnlistRealm(acc *models.Account, enlistRequest *models.WebEnlistRealmRequest) (*models.WebEnlistRealmResponse, error) {

@@ -5,14 +5,14 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/Gophercraft/core/home/models"
-	"github.com/Gophercraft/core/home/rpcnet"
-	"github.com/Gophercraft/core/i18n"
+	"github.com/gibson/gophercraft/home/models"
+	"github.com/gibson/gophercraft/home/rpcnet"
+	"github.com/gibson/gophercraft/i18n"
 	"github.com/gorilla/mux"
 
 	"github.com/superp00t/etc"
 
-	"github.com/Gophercraft/core/home/config"
+	"github.com/gibson/gophercraft/home/config"
 	"xorm.io/xorm"
 )
 

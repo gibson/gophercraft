@@ -3,7 +3,7 @@ package autocode
 import (
 	"log"
 
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/vsn"
 	"github.com/spf13/cobra"
 )
 

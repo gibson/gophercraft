@@ -5,7 +5,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 type ColumnType uint8

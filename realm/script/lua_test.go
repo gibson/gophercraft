@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/gibson/gophercraft/datapack"
 	"github.com/superp00t/etc"
-	"github.com/Gophercraft/core/datapack"
 )
 
 func timeExe(t *testing.T, e *Engine, process, code string) {

@@ -3,7 +3,7 @@ package realm
 import (
 	"fmt"
 
-	"github.com/Gophercraft/core/realm/wdb/models"
+	"github.com/gibson/gophercraft/realm/wdb/models"
 )
 
 // func (player *PlayerSession) CalcBaseHealth() uint32 {

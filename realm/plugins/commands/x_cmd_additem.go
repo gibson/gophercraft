@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Gophercraft/core/packet/chat"
-	"github.com/Gophercraft/core/realm"
-	"github.com/Gophercraft/core/realm/wdb"
-	"github.com/Gophercraft/core/realm/wdb/models"
+	"github.com/gibson/gophercraft/packet/chat"
+	"github.com/gibson/gophercraft/realm"
+	"github.com/gibson/gophercraft/realm/wdb"
+	"github.com/gibson/gophercraft/realm/wdb/models"
 )
 
 func cmdAddItem(s *realm.Session, id string, ct int) {

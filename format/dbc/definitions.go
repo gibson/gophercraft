@@ -3,7 +3,7 @@ package dbc
 import (
 	"fmt"
 
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 func LocStringSize(v vsn.Build) (int, error) {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	packetwarden "github.com/Gophercraft/core/packet/warden"
+	packetwarden "github.com/gibson/gophercraft/packet/warden"
 )
 
 type Module struct {

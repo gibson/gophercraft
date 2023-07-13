@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/utils/log"
 )
 
 type PluginInfo struct {

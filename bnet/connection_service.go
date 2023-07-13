@@ -3,9 +3,9 @@ package bnet
 import (
 	"time"
 
-	protocol "github.com/Gophercraft/core/bnet/bgs/protocol"
-	v1 "github.com/Gophercraft/core/bnet/bgs/protocol/connection/v1"
-	"github.com/Gophercraft/log"
+	protocol "github.com/gibson/gophercraft/bnet/bgs/protocol"
+	v1 "github.com/gibson/gophercraft/bnet/bgs/protocol/connection/v1"
+	"github.com/gibson/gophercraft/utils/log"
 )
 
 func (s *Listener) Connect(conn *Conn, token uint32, args *v1.ConnectRequest) {

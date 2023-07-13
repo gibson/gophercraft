@@ -1,9 +1,9 @@
 package realm
 
 import (
-	"github.com/Gophercraft/core/format/dbc/dbdefs"
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/i18n"
+	"github.com/gibson/gophercraft/format/dbc/dbdefs"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/i18n"
 )
 
 type Relation uint8

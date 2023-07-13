@@ -1,8 +1,8 @@
 package party
 
 import (
-	"github.com/Gophercraft/core/packet"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/packet"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 type InviteRequest struct {

@@ -1,11 +1,11 @@
 package commands
 
 import (
-	"github.com/Gophercraft/core/realm"
-	"github.com/Gophercraft/core/realm/wdb"
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/core/tempest"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/gibson/gophercraft/realm"
+	"github.com/gibson/gophercraft/realm/wdb"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/tempest"
 )
 
 func cmdTele(s *realm.Session, portID string) {

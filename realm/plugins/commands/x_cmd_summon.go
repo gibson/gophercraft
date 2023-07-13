@@ -3,7 +3,7 @@ package commands
 import (
 	"time"
 
-	"github.com/Gophercraft/core/realm"
+	"github.com/gibson/gophercraft/realm"
 )
 
 func cmdSummon(s *realm.Session, playerName string) {

@@ -3,9 +3,9 @@ package home
 import (
 	"time"
 
-	"github.com/Gophercraft/core/bnet"
-	"github.com/Gophercraft/core/home/models"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/bnet"
+	"github.com/gibson/gophercraft/home/models"
+	"github.com/gibson/gophercraft/utils/log"
 )
 
 func (c *Server) StoreLoginTicket(user, ticket string, expiry time.Time) {

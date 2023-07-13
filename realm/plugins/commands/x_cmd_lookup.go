@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Gophercraft/core/realm"
-	"github.com/Gophercraft/core/realm/wdb/models"
+	"github.com/gibson/gophercraft/realm"
+	"github.com/gibson/gophercraft/realm/wdb/models"
 )
 
 // this file contains various .lookup commands.

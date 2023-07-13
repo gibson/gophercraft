@@ -1,8 +1,8 @@
 package player
 
 import (
-	"github.com/Gophercraft/core/packet/update"
-	"github.com/Gophercraft/core/realm/wdb/models"
+	"github.com/gibson/gophercraft/packet/update"
+	"github.com/gibson/gophercraft/realm/wdb/models"
 )
 
 // A Character can be a flesh-and-blood human, a bot, or a Goober.

@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Gophercraft/core/format/dbc/dbdefs"
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/packet"
-	"github.com/Gophercraft/core/packet/spell"
-	"github.com/Gophercraft/core/realm/wdb"
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/core/tempest"
-	"github.com/Gophercraft/core/vsn"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/format/dbc/dbdefs"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/packet"
+	"github.com/gibson/gophercraft/packet/spell"
+	"github.com/gibson/gophercraft/realm/wdb"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/tempest"
+	"github.com/gibson/gophercraft/utils/log"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 func (s *Session) CanCast(cc *spell.Cast) (err packet.Encodable) {

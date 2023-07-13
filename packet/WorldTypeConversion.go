@@ -3,7 +3,7 @@ package packet
 import (
 	"fmt"
 
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 type WorldCodes map[WorldType]uint32

@@ -4,8 +4,8 @@ package content
 import (
 	"fmt"
 
-	"github.com/Gophercraft/core/vsn"
-	"github.com/Gophercraft/core/vsn/detection"
+	"github.com/gibson/gophercraft/vsn"
+	"github.com/gibson/gophercraft/vsn/detection"
 )
 
 type Volume interface {

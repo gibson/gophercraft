@@ -1,8 +1,8 @@
 package cli
 
 import (
-	"github.com/Gophercraft/core/vsn"
-	"github.com/Gophercraft/core/wizard"
+	"github.com/gibson/gophercraft/vsn"
+	"github.com/gibson/gophercraft/wizard"
 )
 
 type WizFunc func(w *Wizard, prev WizFunc) WizFunc

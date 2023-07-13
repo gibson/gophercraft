@@ -4,8 +4,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Gophercraft/core/home/config"
-	"github.com/Gophercraft/core/home/models"
+	"github.com/gibson/gophercraft/home/config"
+	"github.com/gibson/gophercraft/home/models"
 	"xorm.io/xorm"
 )
 

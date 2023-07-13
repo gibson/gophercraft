@@ -1,8 +1,8 @@
 package auth
 
 import (
+	"github.com/gibson/gophercraft/vsn"
 	"github.com/superp00t/etc"
-	"github.com/Gophercraft/core/vsn"
 )
 
 type AuthLogonChallenge_S struct {

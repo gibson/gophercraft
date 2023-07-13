@@ -3,12 +3,12 @@ package gameobject
 import (
 	"fmt"
 
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/i18n"
-	"github.com/Gophercraft/core/packet"
-	"github.com/Gophercraft/core/packet/query"
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/i18n"
+	"github.com/gibson/gophercraft/packet"
+	"github.com/gibson/gophercraft/packet/query"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 const (

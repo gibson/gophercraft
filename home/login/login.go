@@ -3,9 +3,9 @@ package login
 import (
 	"strings"
 
-	"github.com/Gophercraft/core/crypto/srp"
-	"github.com/Gophercraft/core/home/models"
-	"github.com/Gophercraft/core/home/rpcnet"
+	"github.com/gibson/gophercraft/crypto/srp"
+	"github.com/gibson/gophercraft/home/models"
+	"github.com/gibson/gophercraft/home/rpcnet"
 	"golang.org/x/crypto/bcrypt"
 )
 

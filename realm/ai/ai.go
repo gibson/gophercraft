@@ -1,6 +1,6 @@
 package ai
 
-import "github.com/Gophercraft/core/realm/sync"
+import "github.com/gibson/gophercraft/realm/sync"
 
 type Action interface {
 }

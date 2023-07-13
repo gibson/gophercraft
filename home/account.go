@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Gophercraft/core/home/models"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/home/models"
+	"github.com/gibson/gophercraft/utils/log"
 )
 
 func (c *Server) GetAccountID(user string) (uint64, error) {

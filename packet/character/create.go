@@ -3,9 +3,9 @@ package character
 import (
 	"fmt"
 
-	"github.com/Gophercraft/core/packet"
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/packet"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 type Create struct {

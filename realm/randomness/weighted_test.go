@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Gophercraft/core/realm/randomness"
+	"github.com/gibson/gophercraft/realm/randomness"
 )
 
 func TestWeightedSelect(t *testing.T) {

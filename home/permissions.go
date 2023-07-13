@@ -1,8 +1,8 @@
 package home
 
 import (
-	"github.com/Gophercraft/core/home/models"
-	"github.com/Gophercraft/core/home/rpcnet"
+	"github.com/gibson/gophercraft/home/models"
+	"github.com/gibson/gophercraft/home/rpcnet"
 )
 
 func (s *Server) CanEnlistRealm(acc *models.Account) bool {

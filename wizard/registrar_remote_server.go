@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Gophercraft/core/home/config"
-	"github.com/Gophercraft/core/home/rpcnet"
+	"github.com/gibson/gophercraft/home/config"
+	"github.com/gibson/gophercraft/home/rpcnet"
 )
 
 // talks to Home server over GRPC to enlist a World

@@ -3,10 +3,10 @@ package models
 import (
 	"time"
 
-	"github.com/Gophercraft/core/home/config"
-	"github.com/Gophercraft/core/home/rpcnet"
-	"github.com/Gophercraft/core/i18n"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/home/config"
+	"github.com/gibson/gophercraft/home/rpcnet"
+	"github.com/gibson/gophercraft/i18n"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 var RealmOnlineDelayMeansOffline = 15 * time.Second

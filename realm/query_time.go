@@ -3,7 +3,7 @@ package realm
 import (
 	"time"
 
-	"github.com/Gophercraft/core/packet/synctime"
+	"github.com/gibson/gophercraft/packet/synctime"
 )
 
 func (s *Session) HandleQueryTime(q *synctime.QueryTime) {

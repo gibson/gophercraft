@@ -1,10 +1,10 @@
 package commands
 
 import (
-	"github.com/Gophercraft/core/format/dbc/dbdefs"
-	"github.com/Gophercraft/core/format/terrain"
-	"github.com/Gophercraft/core/realm"
-	"github.com/Gophercraft/core/realm/wdb"
+	"github.com/gibson/gophercraft/format/dbc/dbdefs"
+	"github.com/gibson/gophercraft/format/terrain"
+	"github.com/gibson/gophercraft/realm"
+	"github.com/gibson/gophercraft/realm/wdb"
 )
 
 func cmdGPS(s *realm.Session) {

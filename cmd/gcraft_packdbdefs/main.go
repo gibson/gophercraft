@@ -12,8 +12,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/Gophercraft/core/format/dbc/dbd"
 	"github.com/cybriq/gotiny"
+	"github.com/gibson/gophercraft/format/dbc/dbd"
 )
 
 func handle(err error) {

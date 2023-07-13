@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Gophercraft/core/format/content"
-	"github.com/Gophercraft/core/format/dbc/dbdefs"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/format/content"
+	"github.com/gibson/gophercraft/format/dbc/dbdefs"
+	"github.com/gibson/gophercraft/utils/log"
 )
 
 func TestDB(t *testing.T) {

@@ -1,6 +1,6 @@
 package packet
 
-import "github.com/Gophercraft/core/vsn"
+import "github.com/gibson/gophercraft/vsn"
 
 type ClientCacheVersion struct {
 	Build vsn.Build

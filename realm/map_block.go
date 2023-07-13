@@ -1,8 +1,8 @@
 package realm
 
 import (
-	"github.com/Gophercraft/core/format/terrain"
-	"github.com/Gophercraft/core/tempest"
+	"github.com/gibson/gophercraft/format/terrain"
+	"github.com/gibson/gophercraft/tempest"
 )
 
 func blockIndex1d(blockIndex terrain.BlockIndex, param *terrain.MapParam) int {

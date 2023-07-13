@@ -5,9 +5,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/realm"
-	"github.com/Gophercraft/core/realm/wdb/models"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/realm"
+	"github.com/gibson/gophercraft/realm/wdb/models"
 )
 
 func cmdDebugInv(s *realm.Session) {

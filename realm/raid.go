@@ -1,7 +1,7 @@
 package realm
 
 import (
-	"github.com/Gophercraft/core/packet/raid"
+	"github.com/gibson/gophercraft/packet/raid"
 )
 
 func (s *Session) HandleRequestRaidInfo() {

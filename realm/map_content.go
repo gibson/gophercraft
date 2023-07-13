@@ -1,11 +1,11 @@
 package realm
 
 import (
-	"github.com/Gophercraft/core/format/terrain"
-	"github.com/Gophercraft/core/realm/randomness"
-	"github.com/Gophercraft/core/realm/wdb"
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/core/tempest"
+	"github.com/gibson/gophercraft/format/terrain"
+	"github.com/gibson/gophercraft/realm/randomness"
+	"github.com/gibson/gophercraft/realm/wdb"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/tempest"
 )
 
 type SpawnGroupInstance struct {

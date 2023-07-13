@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"sort"
 
-	"github.com/Gophercraft/core/i18n"
 	"github.com/cybriq/gotiny"
+	"github.com/gibson/gophercraft/i18n"
 )
 
 var (

@@ -3,7 +3,7 @@ package commands
 import (
 	"runtime"
 
-	"github.com/Gophercraft/core/realm"
+	"github.com/gibson/gophercraft/realm"
 )
 
 func bToMb(b uint64) uint64 {

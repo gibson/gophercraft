@@ -5,22 +5,22 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Gophercraft/core/bnet"
-	"github.com/Gophercraft/core/i18n"
-	"github.com/Gophercraft/core/packet/area"
-	"github.com/Gophercraft/core/packet/auth"
-	"github.com/Gophercraft/core/packet/query"
-	"github.com/Gophercraft/core/packet/update"
-	"github.com/Gophercraft/core/realm/wdb"
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/bnet"
+	"github.com/gibson/gophercraft/i18n"
+	"github.com/gibson/gophercraft/packet/area"
+	"github.com/gibson/gophercraft/packet/auth"
+	"github.com/gibson/gophercraft/packet/query"
+	"github.com/gibson/gophercraft/packet/update"
+	"github.com/gibson/gophercraft/realm/wdb"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/utils/log"
 
-	"github.com/Gophercraft/core/guid"
+	"github.com/gibson/gophercraft/guid"
 	"github.com/superp00t/etc"
 
-	"github.com/Gophercraft/core/home/config"
-	"github.com/Gophercraft/core/home/rpcnet"
-	"github.com/Gophercraft/core/packet"
+	"github.com/gibson/gophercraft/home/config"
+	"github.com/gibson/gophercraft/home/rpcnet"
+	"github.com/gibson/gophercraft/packet"
 )
 
 type SessionState int8

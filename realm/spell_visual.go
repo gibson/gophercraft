@@ -1,9 +1,9 @@
 package realm
 
 import (
-	"github.com/Gophercraft/core/format/dbc/dbdefs"
-	"github.com/Gophercraft/core/packet/spell"
-	"github.com/Gophercraft/core/realm/wdb/models"
+	"github.com/gibson/gophercraft/format/dbc/dbdefs"
+	"github.com/gibson/gophercraft/packet/spell"
+	"github.com/gibson/gophercraft/realm/wdb/models"
 )
 
 func (m *Map) PlaySpellVisualKind(unit Unit, spellID uint32, class models.VisualClass) {

@@ -3,10 +3,10 @@ package auth
 import (
 	"fmt"
 
-	"github.com/Gophercraft/core/packet"
-	"github.com/Gophercraft/core/packet/addon"
-	"github.com/Gophercraft/core/vsn"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/packet"
+	"github.com/gibson/gophercraft/packet/addon"
+	"github.com/gibson/gophercraft/utils/log"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 type SessionClient struct {

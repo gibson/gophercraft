@@ -11,8 +11,8 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/superp00t/etc"
 
-	"github.com/Gophercraft/core/bnet/bgs/protocol"
-	"github.com/Gophercraft/core/cmd/protoc-gen-gcraft/generator"
+	"github.com/gibson/gophercraft/bnet/bgs/protocol"
+	"github.com/gibson/gophercraft/cmd/protoc-gen-gcraft/generator"
 )
 
 func trace(args ...interface{}) {

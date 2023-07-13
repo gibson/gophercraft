@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Gophercraft/core/realm/worldserver"
+	"github.com/gibson/gophercraft/realm/worldserver"
 	// _ "your/plugin/here"
 )
 

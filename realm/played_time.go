@@ -3,7 +3,7 @@ package realm
 import (
 	"time"
 
-	"github.com/Gophercraft/core/packet/account"
+	"github.com/gibson/gophercraft/packet/account"
 )
 
 func (s *Session) HandlePlayedTimeRequest() {

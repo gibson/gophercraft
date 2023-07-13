@@ -3,10 +3,10 @@ package spell
 import (
 	"fmt"
 
-	"github.com/Gophercraft/core/packet"
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/core/vsn"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/packet"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/utils/log"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 type ActionButton struct {

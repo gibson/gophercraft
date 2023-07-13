@@ -3,8 +3,8 @@ package chat
 import (
 	"fmt"
 
-	"github.com/Gophercraft/core/packet"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/packet"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 type MsgType uint8

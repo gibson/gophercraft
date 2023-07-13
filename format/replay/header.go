@@ -1,7 +1,7 @@
 // Package replay will provide utilities for recording and playing back game logs
 package replay
 
-import "github.com/Gophercraft/core/vsn"
+import "github.com/gibson/gophercraft/vsn"
 
 type Version uint8
 

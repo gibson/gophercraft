@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"reflect"
 
-	"github.com/Gophercraft/log"
+	"github.com/Gophercraft/core/utils/log"
 	"github.com/syndtr/goleveldb/leveldb"
 )
 

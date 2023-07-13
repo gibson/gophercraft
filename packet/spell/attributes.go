@@ -3,9 +3,9 @@ package spell
 import (
 	"fmt"
 
-	"github.com/Gophercraft/core/format/dbc/dbdefs"
-	"github.com/Gophercraft/core/packet/update"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/format/dbc/dbdefs"
+	"github.com/gibson/gophercraft/packet/update"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 type Attribute uint32

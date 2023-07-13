@@ -2,8 +2,8 @@ package cli
 
 import (
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/Gophercraft/core/wizard"
 	"github.com/fatih/color"
+	"github.com/gibson/gophercraft/wizard"
 )
 
 func (w *Wizard) ConfirmConfigDir() error {

@@ -1,6 +1,6 @@
 package character
 
-import "github.com/Gophercraft/core/vsn"
+import "github.com/gibson/gophercraft/vsn"
 
 //go:generate gcraft_stringer -type=Result
 type Result uint8

@@ -6,10 +6,10 @@ import (
 	"crypto/sha1"
 	"net"
 
-	"github.com/Gophercraft/core/auth"
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/packet"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/auth"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/packet"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 type Config struct {

@@ -1,8 +1,8 @@
 package realm
 
 import (
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/packet/update"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/packet/update"
 )
 
 func (s *Session) GetTarget() guid.GUID {

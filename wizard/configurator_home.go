@@ -5,11 +5,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Gophercraft/core/home/config"
-	"github.com/Gophercraft/core/home/dbsupport"
-	"github.com/Gophercraft/core/home/login"
-	"github.com/Gophercraft/core/home/models"
-	"github.com/Gophercraft/core/home/rpcnet"
+	"github.com/gibson/gophercraft/home/config"
+	"github.com/gibson/gophercraft/home/dbsupport"
+	"github.com/gibson/gophercraft/home/login"
+	"github.com/gibson/gophercraft/home/models"
+	"github.com/gibson/gophercraft/home/rpcnet"
 	"xorm.io/xorm"
 )
 

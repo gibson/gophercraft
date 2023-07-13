@@ -3,9 +3,9 @@ package bnet
 
 import (
 	fmt "fmt"
+	protocol "github.com/gibson/gophercraft/bnet/bgs/protocol"
+	membership "github.com/gibson/gophercraft/bnet/bgs/protocol/club/v1/membership"
 	proto "github.com/golang/protobuf/proto"
-	protocol "github.com/Gophercraft/core/bnet/bgs/protocol"
-	membership "github.com/Gophercraft/core/bnet/bgs/protocol/club/v1/membership"
 	math "math"
 )
 

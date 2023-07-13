@@ -6,7 +6,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/utils/log"
 )
 
 type File struct {

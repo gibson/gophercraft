@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/Gophercraft/core/home/rpcnet"
-	"github.com/Gophercraft/core/packet/character"
-	"github.com/Gophercraft/core/packet/spell"
+	"github.com/gibson/gophercraft/home/rpcnet"
+	"github.com/gibson/gophercraft/packet/character"
+	"github.com/gibson/gophercraft/packet/spell"
 
-	"github.com/Gophercraft/core/format/dbc/dbdefs"
-	"github.com/Gophercraft/core/realm/wdb"
-	"github.com/Gophercraft/core/realm/wdb/models"
+	"github.com/gibson/gophercraft/format/dbc/dbdefs"
+	"github.com/gibson/gophercraft/realm/wdb"
+	"github.com/gibson/gophercraft/realm/wdb/models"
 
-	"github.com/Gophercraft/core/guid"
+	"github.com/gibson/gophercraft/guid"
 )
 
 func (s *Session) HandleDeleteCharacter(del *character.Delete) {

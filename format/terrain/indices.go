@@ -3,8 +3,8 @@ package terrain
 import (
 	"fmt"
 
-	"github.com/Gophercraft/core/tempest"
 	"github.com/arl/math32"
+	"github.com/gibson/gophercraft/tempest"
 )
 
 // Since documentation is often lacking or contradictory, a definition of terms:

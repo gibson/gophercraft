@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/Gophercraft/core/datapack"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/datapack"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 const exAuthor = "Gophercraft Wizard"

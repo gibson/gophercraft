@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 var (

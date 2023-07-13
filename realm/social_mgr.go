@@ -3,12 +3,12 @@ package realm
 import (
 	"sort"
 
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/packet"
-	"github.com/Gophercraft/core/packet/chat"
-	"github.com/Gophercraft/core/packet/social"
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/packet"
+	"github.com/gibson/gophercraft/packet/chat"
+	"github.com/gibson/gophercraft/packet/social"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 func (ws *Server) GetFriendStatus(id guid.GUID) social.Status {

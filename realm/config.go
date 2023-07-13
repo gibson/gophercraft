@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Gophercraft/core/home/config"
-	"github.com/Gophercraft/core/tempest"
+	"github.com/gibson/gophercraft/home/config"
+	"github.com/gibson/gophercraft/tempest"
 )
 
 func (s *Server) InitConfig(cfg *config.World) error {

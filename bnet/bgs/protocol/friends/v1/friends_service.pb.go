@@ -5,8 +5,8 @@ package v1
 
 import (
 	fmt "fmt"
+	protocol "github.com/gibson/gophercraft/bnet/bgs/protocol"
 	proto "github.com/golang/protobuf/proto"
-	protocol "github.com/Gophercraft/core/bnet/bgs/protocol"
 	math "math"
 )
 

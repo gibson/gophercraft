@@ -5,10 +5,10 @@ package membership
 
 import (
 	fmt "fmt"
+	protocol "github.com/gibson/gophercraft/bnet/bgs/protocol"
+	v11 "github.com/gibson/gophercraft/bnet/bgs/protocol/account/v1"
+	v1 "github.com/gibson/gophercraft/bnet/bgs/protocol/club/v1"
 	proto "github.com/golang/protobuf/proto"
-	protocol "github.com/Gophercraft/core/bnet/bgs/protocol"
-	v11 "github.com/Gophercraft/core/bnet/bgs/protocol/account/v1"
-	v1 "github.com/Gophercraft/core/bnet/bgs/protocol/club/v1"
 	math "math"
 )
 

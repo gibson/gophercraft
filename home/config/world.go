@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Gophercraft/core/home/rpcnet"
-	"github.com/Gophercraft/core/i18n"
-	"github.com/Gophercraft/core/vsn"
-	"github.com/Gophercraft/text"
+	"github.com/gibson/gophercraft/home/rpcnet"
+	"github.com/gibson/gophercraft/i18n"
+	"github.com/gibson/gophercraft/utils/text"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 type WorldVars map[string]string

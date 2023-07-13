@@ -3,7 +3,7 @@ package autocode
 import (
 	"log"
 
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 func runMain(build vsn.Build, loc string) {

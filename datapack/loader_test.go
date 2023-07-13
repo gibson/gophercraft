@@ -3,7 +3,7 @@ package datapack
 import (
 	"testing"
 
-	"github.com/Gophercraft/core/realm/wdb/models"
+	"github.com/gibson/gophercraft/realm/wdb/models"
 	"github.com/superp00t/etc"
 )
 

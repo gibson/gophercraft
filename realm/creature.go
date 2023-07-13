@@ -1,13 +1,13 @@
 package realm
 
 import (
-	"github.com/Gophercraft/core/crypto"
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/packet/creature"
-	"github.com/Gophercraft/core/packet/update"
-	"github.com/Gophercraft/core/realm/wdb"
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/core/tempest"
+	"github.com/gibson/gophercraft/crypto"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/packet/creature"
+	"github.com/gibson/gophercraft/packet/update"
+	"github.com/gibson/gophercraft/realm/wdb"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/tempest"
 	"github.com/superp00t/etc"
 )
 

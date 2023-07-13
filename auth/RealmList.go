@@ -3,9 +3,9 @@ package auth
 import (
 	"encoding/binary"
 
-	"github.com/Gophercraft/core/home/config"
-	"github.com/Gophercraft/core/home/models"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/home/config"
+	"github.com/gibson/gophercraft/home/models"
+	"github.com/gibson/gophercraft/vsn"
 	"github.com/superp00t/etc"
 )
 

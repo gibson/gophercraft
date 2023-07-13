@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Gophercraft/core/home/login"
-	"github.com/Gophercraft/core/home/models"
-	"github.com/Gophercraft/core/home/rpcnet"
-	"github.com/Gophercraft/core/vsn"
 	"github.com/dchest/captcha"
+	"github.com/gibson/gophercraft/home/login"
+	"github.com/gibson/gophercraft/home/models"
+	"github.com/gibson/gophercraft/home/rpcnet"
+	"github.com/gibson/gophercraft/vsn"
 	"github.com/gorilla/mux"
 )
 

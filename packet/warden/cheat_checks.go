@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"time"
 
+	wardencrypto "github.com/gibson/gophercraft/crypto/warden"
+	"github.com/gibson/gophercraft/vsn"
 	"github.com/superp00t/etc"
-	wardencrypto "github.com/Gophercraft/core/crypto/warden"
-	"github.com/Gophercraft/core/vsn"
 )
 
 type CheckType uint8

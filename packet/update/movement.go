@@ -6,10 +6,10 @@ import (
 	"io"
 	"strings"
 
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/packet"
-	"github.com/Gophercraft/core/tempest"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/packet"
+	"github.com/gibson/gophercraft/tempest"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 //go:generate gcraft_stringer -type=SpeedType

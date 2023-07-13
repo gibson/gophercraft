@@ -7,8 +7,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Gophercraft/core/home/rpcnet"
-	"github.com/Gophercraft/text"
+	"github.com/gibson/gophercraft/home/rpcnet"
+	"github.com/gibson/gophercraft/utils/text"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/Gophercraft/text"
+	"github.com/gibson/gophercraft/utils/text"
 )
 
 var (

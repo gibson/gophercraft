@@ -1,9 +1,9 @@
 package commands
 
 import (
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/realm"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/realm"
 )
 
 func cmdAuraList(s *realm.Session) {

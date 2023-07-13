@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Gophercraft/core/crypto/srp"
+	"github.com/gibson/gophercraft/crypto/srp"
 )
 
 func main() {

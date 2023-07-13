@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/tempest"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/tempest"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 type SplineFlags uint32

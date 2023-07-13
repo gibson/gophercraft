@@ -5,8 +5,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/Gophercraft/core/datapack"
-	"github.com/Gophercraft/text"
+	"github.com/gibson/gophercraft/datapack"
+	"github.com/gibson/gophercraft/utils/text"
 )
 
 func openFile(out string) *os.File {

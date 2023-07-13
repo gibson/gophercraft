@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	"github.com/Gophercraft/core/tempest"
+	"github.com/gibson/gophercraft/tempest"
 )
 
 type ObjectPathStep struct {

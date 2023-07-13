@@ -1,6 +1,6 @@
 package realm
 
-import "github.com/Gophercraft/core/packet/spell"
+import "github.com/gibson/gophercraft/packet/spell"
 
 func (s *Session) CanUnaura(spellID uint32) bool {
 	if s.God() {

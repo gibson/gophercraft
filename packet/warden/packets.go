@@ -3,7 +3,7 @@ package warden
 import (
 	"io"
 
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 type Command uint8

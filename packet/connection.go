@@ -9,8 +9,8 @@ import (
 	"net"
 	"sync"
 
-	"github.com/Gophercraft/core/crypto"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/crypto"
+	"github.com/gibson/gophercraft/vsn"
 	"github.com/superp00t/etc"
 )
 

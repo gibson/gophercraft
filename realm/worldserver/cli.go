@@ -1,8 +1,8 @@
 package worldserver
 
 import (
-	"github.com/Gophercraft/core/home/config"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/home/config"
+	"github.com/gibson/gophercraft/utils/log"
 	"github.com/spf13/cobra"
 )
 

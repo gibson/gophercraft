@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/utils/log"
 )
 
 // Phase describes a plane of existence which contains multiple maps.

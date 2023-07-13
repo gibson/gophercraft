@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/log"
 )
 
 type Feature struct {

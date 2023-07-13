@@ -5,14 +5,14 @@ import (
 	"net"
 	"strings"
 
-	"github.com/Gophercraft/core/crypto"
-	"github.com/Gophercraft/core/home/rpcnet"
-	"github.com/Gophercraft/core/i18n"
-	"github.com/Gophercraft/core/packet"
-	"github.com/Gophercraft/core/packet/addon"
-	"github.com/Gophercraft/core/packet/auth"
-	"github.com/Gophercraft/core/vsn"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/crypto"
+	"github.com/gibson/gophercraft/home/rpcnet"
+	"github.com/gibson/gophercraft/i18n"
+	"github.com/gibson/gophercraft/packet"
+	"github.com/gibson/gophercraft/packet/addon"
+	"github.com/gibson/gophercraft/packet/auth"
+	"github.com/gibson/gophercraft/utils/log"
+	"github.com/gibson/gophercraft/vsn"
 	"github.com/superp00t/etc"
 )
 

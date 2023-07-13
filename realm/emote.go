@@ -3,12 +3,12 @@ package realm
 import (
 	"math"
 
-	"github.com/Gophercraft/core/format/dbc/dbdefs"
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/packet/chat"
-	"github.com/Gophercraft/core/packet/update"
-	"github.com/Gophercraft/core/realm/wdb"
-	"github.com/Gophercraft/core/tempest"
+	"github.com/gibson/gophercraft/format/dbc/dbdefs"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/packet/chat"
+	"github.com/gibson/gophercraft/packet/update"
+	"github.com/gibson/gophercraft/realm/wdb"
+	"github.com/gibson/gophercraft/tempest"
 )
 
 func (s *Session) IsAlive() bool {

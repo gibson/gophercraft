@@ -1,6 +1,6 @@
 package warden
 
-import "github.com/Gophercraft/core/vsn"
+import "github.com/gibson/gophercraft/vsn"
 
 type ServerHashRequest struct {
 	Seed []byte

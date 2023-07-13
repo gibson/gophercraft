@@ -2,8 +2,8 @@ package cli
 
 import (
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/Gophercraft/core/home/dbsupport"
 	"github.com/fatih/color"
+	"github.com/gibson/gophercraft/home/dbsupport"
 )
 
 type DB struct {

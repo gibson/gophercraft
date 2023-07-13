@@ -3,8 +3,8 @@ package warden
 import (
 	"bytes"
 
-	"github.com/Gophercraft/core/crypto/arc4"
-	packetwarden "github.com/Gophercraft/core/packet/warden"
+	"github.com/gibson/gophercraft/crypto/arc4"
+	packetwarden "github.com/gibson/gophercraft/packet/warden"
 )
 
 func (sd *SessionData) HandleHashResult(hr *packetwarden.ClientHashResult) {

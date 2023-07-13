@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/packet/character"
-	"github.com/Gophercraft/core/packet/item"
-	"github.com/Gophercraft/core/packet/update"
-	"github.com/Gophercraft/core/realm/wdb"
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/core/vsn"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/packet/character"
+	"github.com/gibson/gophercraft/packet/item"
+	"github.com/gibson/gophercraft/packet/update"
+	"github.com/gibson/gophercraft/realm/wdb"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/utils/log"
+	"github.com/gibson/gophercraft/vsn"
 	"github.com/superp00t/etc"
 )
 

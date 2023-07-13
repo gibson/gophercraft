@@ -3,7 +3,7 @@ package commands
 import (
 	"math"
 
-	"github.com/Gophercraft/core/realm"
+	"github.com/gibson/gophercraft/realm"
 )
 
 func cmdXGPS(s *realm.Session, yards float32, direction string) {

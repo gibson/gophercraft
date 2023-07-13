@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/Gophercraft/core/guid"
+	"github.com/gibson/gophercraft/guid"
 )
 
 // ObjectTemplateRegistry contains the resolved IDs of a custom object template (think custom items and creatures)

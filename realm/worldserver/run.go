@@ -8,14 +8,14 @@ import (
 
 	"os"
 
-	"github.com/Gophercraft/core/home/config"
-	"github.com/Gophercraft/core/realm"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/home/config"
+	"github.com/gibson/gophercraft/realm"
+	"github.com/gibson/gophercraft/vsn"
 
 	_ "github.com/go-sql-driver/mysql"
 	// Imports core plugins, needed to avoid an import cycle.
-	_ "github.com/Gophercraft/core/realm/plugins/commands"
-	_ "github.com/Gophercraft/core/realm/plugins/discord"
+	_ "github.com/gibson/gophercraft/realm/plugins/commands"
+	_ "github.com/gibson/gophercraft/realm/plugins/discord"
 )
 
 func runAt(path string) {

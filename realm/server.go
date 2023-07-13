@@ -12,16 +12,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Gophercraft/core/packet/auth"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/packet/auth"
+	"github.com/gibson/gophercraft/vsn"
 
-	"github.com/Gophercraft/core/datapack"
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/home/config"
-	"github.com/Gophercraft/core/home/rpcnet"
-	"github.com/Gophercraft/core/realm/wdb"
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/datapack"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/home/config"
+	"github.com/gibson/gophercraft/home/rpcnet"
+	"github.com/gibson/gophercraft/realm/wdb"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/utils/log"
 )
 
 type Server struct {

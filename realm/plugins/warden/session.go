@@ -3,10 +3,10 @@ package warden
 import (
 	"time"
 
-	"github.com/Gophercraft/core/crypto/warden"
-	"github.com/Gophercraft/core/packet"
-	packetwarden "github.com/Gophercraft/core/packet/warden"
-	"github.com/Gophercraft/core/realm"
+	"github.com/gibson/gophercraft/crypto/warden"
+	"github.com/gibson/gophercraft/packet"
+	packetwarden "github.com/gibson/gophercraft/packet/warden"
+	"github.com/gibson/gophercraft/realm"
 )
 
 const sessionProcessName = "gophercraft.realm.plugins.warden.WardenMain"

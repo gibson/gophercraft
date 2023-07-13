@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Gophercraft/core/home/rpcnet"
-	"github.com/Gophercraft/log"
-	"github.com/Gophercraft/text"
 	"github.com/adrg/strutil"
 	"github.com/adrg/strutil/metrics"
+	"github.com/gibson/gophercraft/home/rpcnet"
+	"github.com/gibson/gophercraft/utils/log"
+	"github.com/gibson/gophercraft/utils/text"
 	"github.com/superp00t/etc"
 )
 

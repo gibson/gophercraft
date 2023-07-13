@@ -3,7 +3,7 @@ package wizard
 import (
 	"path/filepath"
 
-	"github.com/Gophercraft/core/datapack"
+	"github.com/gibson/gophercraft/datapack"
 )
 
 const MapPackName = "!maps.zip"

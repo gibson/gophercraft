@@ -3,13 +3,13 @@ package realm
 import (
 	"time"
 
-	"github.com/Gophercraft/core/packet"
-	"github.com/Gophercraft/core/packet/character"
-	"github.com/Gophercraft/core/packet/login"
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/core/tempest"
-	"github.com/Gophercraft/core/vsn"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/packet"
+	"github.com/gibson/gophercraft/packet/character"
+	"github.com/gibson/gophercraft/packet/login"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/tempest"
+	"github.com/gibson/gophercraft/utils/log"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 func (s *Session) SendLoginFailure(failure character.LoginResult) {

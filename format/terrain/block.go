@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Gophercraft/core/format/chunked"
-	"github.com/Gophercraft/core/tempest"
+	"github.com/gibson/gophercraft/format/chunked"
+	"github.com/gibson/gophercraft/tempest"
 )
 
 type MapBlock struct {

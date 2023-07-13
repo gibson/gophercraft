@@ -1,6 +1,6 @@
 package packet
 
-import "github.com/Gophercraft/core/vsn"
+import "github.com/gibson/gophercraft/vsn"
 
 type Ping struct {
 	Ping    uint32

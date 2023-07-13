@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Gophercraft/core/packet/chat"
-	"github.com/Gophercraft/core/realm"
+	"github.com/gibson/gophercraft/packet/chat"
+	"github.com/gibson/gophercraft/realm"
 )
 
 func cmdSpawnGameobject(s *realm.Session, arg string) {

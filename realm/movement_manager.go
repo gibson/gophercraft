@@ -3,7 +3,7 @@ package realm
 import (
 	"time"
 
-	"github.com/Gophercraft/core/packet/update"
+	"github.com/gibson/gophercraft/packet/update"
 )
 
 const MovementManagerTag = "Gophercraft/core/realm/movement_mgr"

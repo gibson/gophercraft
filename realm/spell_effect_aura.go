@@ -1,10 +1,10 @@
 package realm
 
 import (
-	"github.com/Gophercraft/core/packet/spell"
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/core/vsn"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/packet/spell"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/utils/log"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 // ModEffect. Stores mods for all the stats in StatMask

@@ -1,10 +1,10 @@
 package realm
 
 import (
-	"github.com/Gophercraft/core/guid"
-	"github.com/Gophercraft/core/packet/query"
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/guid"
+	"github.com/gibson/gophercraft/packet/query"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/utils/log"
 )
 
 func (s *Session) HandleNameQuery(nq *query.Name) {

@@ -1,6 +1,6 @@
 package warden
 
-import "github.com/Gophercraft/core/realm"
+import "github.com/gibson/gophercraft/realm"
 
 func WardenMain(s *realm.Session, done <-chan bool) {
 	sdp := s.FindProcess(wardenMain)

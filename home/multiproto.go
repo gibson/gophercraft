@@ -4,10 +4,10 @@ import (
 	"crypto/tls"
 	"net"
 
-	"github.com/Gophercraft/core/auth"
-	"github.com/Gophercraft/core/home/multiproto"
-	"github.com/Gophercraft/core/home/rpcnet"
-	"github.com/Gophercraft/log"
+	"github.com/gibson/gophercraft/auth"
+	"github.com/gibson/gophercraft/home/multiproto"
+	"github.com/gibson/gophercraft/home/rpcnet"
+	"github.com/gibson/gophercraft/utils/log"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

@@ -3,9 +3,9 @@ package dbc
 import (
 	"fmt"
 
-	"github.com/Gophercraft/core/format/dbc/dbd"
-	"github.com/Gophercraft/core/format/dbc/dbdefs"
-	"github.com/Gophercraft/core/vsn"
+	"github.com/gibson/gophercraft/format/dbc/dbd"
+	"github.com/gibson/gophercraft/format/dbc/dbdefs"
+	"github.com/gibson/gophercraft/vsn"
 )
 
 type DB struct {

@@ -1,7 +1,7 @@
 package realm
 
 import (
-	"github.com/Gophercraft/core/packet"
+	"github.com/gibson/gophercraft/packet"
 )
 
 func (s *Session) SendAllAcheivementData() {

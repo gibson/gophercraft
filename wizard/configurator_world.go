@@ -5,10 +5,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Gophercraft/core/format/content"
-	"github.com/Gophercraft/core/home/config"
-	"github.com/Gophercraft/core/home/dbsupport"
-	"github.com/Gophercraft/core/vsn/detection"
+	"github.com/gibson/gophercraft/format/content"
+	"github.com/gibson/gophercraft/home/config"
+	"github.com/gibson/gophercraft/home/dbsupport"
+	"github.com/gibson/gophercraft/vsn/detection"
 )
 
 type WorldOptions struct {

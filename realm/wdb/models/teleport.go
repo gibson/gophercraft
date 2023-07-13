@@ -1,6 +1,6 @@
 package models
 
-import "github.com/Gophercraft/core/tempest"
+import "github.com/gibson/gophercraft/tempest"
 
 type PortLocation struct {
 	ID       string `xorm:"'port_id' pk" csv:"name"`

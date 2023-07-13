@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	_ "github.com/Gophercraft/core/home/dbsupport"
-	"github.com/Gophercraft/core/realm/wdb/models"
-	"github.com/Gophercraft/log"
+	_ "github.com/gibson/gophercraft/home/dbsupport"
+	"github.com/gibson/gophercraft/realm/wdb/models"
+	"github.com/gibson/gophercraft/utils/log"
 	"xorm.io/xorm"
 )
 

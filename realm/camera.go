@@ -1,7 +1,7 @@
 package realm
 
 import (
-	"github.com/Gophercraft/core/tempest"
+	"github.com/gibson/gophercraft/tempest"
 )
 
 type Sight struct {

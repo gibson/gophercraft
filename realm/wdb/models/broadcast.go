@@ -1,6 +1,6 @@
 package models
 
-import "github.com/Gophercraft/core/i18n"
+import "github.com/gibson/gophercraft/i18n"
 
 type Broadcast struct {
 	Message i18n.Text

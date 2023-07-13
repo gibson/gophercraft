@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/Gophercraft/core/home"
-	_ "github.com/Gophercraft/core/home/dbsupport"
+	"github.com/gibson/gophercraft/home"
+	_ "github.com/gibson/gophercraft/home/dbsupport"
 )
 
 func main() {
